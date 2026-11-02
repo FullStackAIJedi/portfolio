@@ -23,7 +23,7 @@ export const createImageLoader = (globResult) => {
     const numB = parseInt(b.match(/\/(\d+)\.\w+$/)?.[1] || 0, 10);
     return numA - numB;
   });
-
+  console.log("IMAGE FILES FOUND:", sortedKeys.length, sortedKeys);
   // In-memory кеш (per-loader, оцелява между re-renders)
   const cache = new Map();
 
