@@ -4,8 +4,7 @@ import { initialProjects } from "../src/utils/initialProjects";
 import { skillCategories } from "../src/utils/skillCategories";
 import { modalTechCategories } from "../src/utils/modalTechCategories";
 import * as goatcounter from "goatcounter-js";
-
-const DEFAULT_MALE_AVATAR = "/portfolio/Sek.jpg";
+import DEFAULT_MALE_AVATAR from "./assets/Sek.jpg";
 
 const GlobalStyle = createGlobalStyle`
   * {
