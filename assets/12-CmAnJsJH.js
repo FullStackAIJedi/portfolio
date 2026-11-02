@@ -1,0 +1,1 @@
+var e=`/portfolio/assets/12-DNAb-Z36.jpg`;export{e as default};

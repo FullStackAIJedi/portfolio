@@ -1,0 +1,1 @@
+var e=`/portfolio/assets/40-BvwhhC3t.jpg`;export{e as default};

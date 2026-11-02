@@ -1,0 +1,1 @@
+var e=`/portfolio/assets/9-BerK-Lv1.jpg`;export{e as default};

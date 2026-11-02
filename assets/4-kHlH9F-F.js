@@ -1,0 +1,1 @@
+var e=`/portfolio/assets/4-CuQRAF_K.jpg`;export{e as default};

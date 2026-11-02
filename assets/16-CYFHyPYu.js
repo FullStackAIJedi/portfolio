@@ -1,0 +1,1 @@
+var e=`/portfolio/assets/16-DOTIsRv9.jpg`;export{e as default};
