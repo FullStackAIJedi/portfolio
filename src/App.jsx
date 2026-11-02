@@ -5,7 +5,7 @@ import { skillCategories } from "../src/utils/skillCategories";
 import { modalTechCategories } from "../src/utils/modalTechCategories";
 import * as goatcounter from "goatcounter-js";
 
-const DEFAULT_MALE_AVATAR = "/portfolio/assets/Sek.jpg";
+const DEFAULT_MALE_AVATAR = "..src/assets/assets/Sek.jpg";
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -68,8 +68,6 @@ export default function App() {
 
   // SENIOR: lazy load САМО на конкретния проект при клик
   const toggleProject = async (project) => {
-    console.log("CLICKED PROJECT:", project.title);
-    console.log("IMAGES FUNCTION:", typeof project.images); // Затваряне — без заявки
     if (openProjectId === project.id) {
       setOpenProjectId(null);
       return;
@@ -89,7 +87,6 @@ export default function App() {
     setLoadingProjectId(project.id);
     try {
       const urls = await project.images();
-      console.log("LOADED IMAGE URLS:", urls);
       setProjectImages((prev) => ({ ...prev, [project.id]: urls }));
     } catch (err) {
       console.error(`Failed to load images for project ${project.id}`, err);
