@@ -5,8 +5,7 @@ import { skillCategories } from "../src/utils/skillCategories";
 import { modalTechCategories } from "../src/utils/modalTechCategories";
 import * as goatcounter from "goatcounter-js";
 
-const DEFAULT_MALE_AVATAR =
-  "https://avatars.githubusercontent.com/u/342512719?s=400&u=523d88c5f6d8a03902c5d942589eee13b5fe7187&v=4";
+const DEFAULT_MALE_AVATAR = "/portfolio/assets/Sek.jpg";
 
 const GlobalStyle = createGlobalStyle`
   * {
