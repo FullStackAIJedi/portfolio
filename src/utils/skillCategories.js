@@ -4,6 +4,7 @@ export const skillCategories = [
     skills: [
       "RAG",
       "LLM Integration",
+      "Generative AI (GenAI)",
       "Model Context Protocol (MCP)",
       "Semantic Search",
       "Vector Embeddings",

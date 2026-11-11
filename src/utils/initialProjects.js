@@ -60,7 +60,7 @@ export const initialProjects = [
     ],
     description:
       "Secure MCP Gateway - Multi-Service AI Agent Platform is an implementation that demonstrates how to build a secure AI agent that can interact with tools and downstream services (creating tasks, searching documents, and deleting data) without granting the LLM unrestricted access to the underlying infrastructure. The gateway acts as a security and trust boundary between the AI agent and downstream services, enforcing authorization policies, rate limiting, audit logging, and human approval for destructive operations.",
-    youtubeUrl: "https://youtube.com",
+    youtubeUrl: "",
     liveUrl: "",
     githubUrl:
       "https://github.com/FullStackAIJedi/Secure-MCP-Gateway-Multi-Service-AI-Agent-Platform",
@@ -68,14 +68,22 @@ export const initialProjects = [
   },
   {
     id: 2,
-    title: "Dating App - Android & iOS",
+    title: "AI-Powered Dating Mobile App with RAG Content Moderation",
     year: "2026",
     labels: [
+      "AI / RAG Moderation",
       "Cross-Platform Mobile",
+      "LLM Integration",
+      "Semantic Search",
+      "Profanity & Content Validator",
       "ASP.NET Core 10 API",
+      "Retrieval-Augmented Generation",
+      "LLM-Powered Content Safety",
       "Automated CI/CD (EAS)",
       "Comprehensive Testing",
       "Full-Stack Web Application",
+      "JSDoc Standards",
+      "OpenAPI / Swagger",
     ],
     techStack: [
       "C#",
@@ -84,12 +92,15 @@ export const initialProjects = [
       "Expo Router",
       "TanStack Query",
       "JSDoc Standards",
-      ".NET Core API",
       ".NET Core API 10",
       "EF Core",
       "SQLite",
       "OpenAPI / Swagger",
       "Docker",
+      "CI/CD",
+      "RAG",
+      "RAG Pipeline",
+      "Vector Embeddings",
       "Jest",
       "React Native Testing Library (RNTL)",
       "xUnit",
@@ -99,10 +110,11 @@ export const initialProjects = [
       "EAS Build",
     ],
     description:
-      "Engineered a production-ready mobile dating application featuring a cross-platform React Native client and a modular ASP.NET Core 10 REST API backend. Implements file-based Expo Router navigation, resilient server-state caching with TanStack Query, and strict OpenAPI/Swagger interface documentation. Backed by a dual-stack testing pyramid (Jest/RNTL for mobile and xUnit/Moq for backend) and fully automated CI/CD leveraging GitHub Actions and Expo Application Services (EAS Build) for automated native builds.",
+      "Engineered a production-ready AI-augmented dating application featuring a cross-platform React Native client and a modular ASP.NET Core 10 REST API backend, with a RAG (Retrieval-Augmented Generation) pipeline powering intelligent content moderation. The system embeds user-generated content, retrieves semantically relevant context from a vector store, and enforces LLM-driven profanity and policy validation before persistence. Implements file-based Expo Router navigation, resilient server-state caching with TanStack Query, and strict OpenAPI/Swagger interface documentation. Backed by a dual-stack testing pyramid (Jest/RNTL for mobile and xUnit/Moq for backend) and fully automated CI/CD leveraging GitHub Actions and Expo Application Services (EAS Build) for automated native builds.",
     youtubeUrl: "",
     liveUrl: "",
-    githubUrl: "",
+    githubUrl:
+      "https://github.com/FullStackAIJedi/FriendFinder-RAG-Powered-AI-Content-Moderation-Full-Stack-iOS-Android-Social-App",
     images: loadDatingImages,
   },
   {
@@ -111,10 +123,14 @@ export const initialProjects = [
     year: "2026",
     labels: [
       "Mobile Gaming & FinTech",
+      "Enterprise Demo",
+      "Showcase Project",
       "Online Casino",
       "Cross-Platform (Expo)",
       ".NET Core 10 API",
       "Full-Stack Web Application",
+      "JSDoc Standards",
+      "OpenAPI / Swagger",
     ],
     techStack: [
       "C#",
@@ -152,9 +168,8 @@ export const initialProjects = [
     title: "Enterprise Hospitality & Resort Management - Platform Showcase",
     year: "2026",
     labels: [
-      "C#",
-      ".NET Core 9 API",
-      ".NET Core API",
+      "Enterprise Demo",
+      "Showcase Project",
       "Microservices",
       "Domain Driven Design (DDD)",
       "Clean Architecture",
@@ -337,6 +352,7 @@ export const initialProjects = [
     ],
 
     techStack: [
+      "Next.js",
       "Next.js 14",
       "React 18",
       "TypeScript",
