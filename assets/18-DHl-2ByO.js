@@ -1,0 +1,1 @@
+var e=`/portfolio/assets/18-D3wmSmI_.webp`;export{e as default};
