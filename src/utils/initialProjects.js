@@ -68,7 +68,7 @@ export const initialProjects = [
   },
   {
     id: 2,
-    title: "AI-Powered Dating Mobile App with RAG Content Moderation",
+    title: "AI Dating Mobile App with RAG Content Moderation",
     year: "2026",
     labels: [
       "RAG",
@@ -126,7 +126,7 @@ export const initialProjects = [
   },
   {
     id: 3,
-    title: "Mobile Betting Platform - RAG Architecture, LLMs, Qdrant",
+    title: "AI Mobile Betting Platform - RAG Architecture, LLMs & Qdrant",
     year: "2026",
     labels: [
       "Mobile Gaming & FinTech",
@@ -139,6 +139,8 @@ export const initialProjects = [
       "OllamaSharp",
       "Ollama Integration",
       "Qdrant",
+      "Cloudflare Workers AI",
+      "Groq",
       "Cross-Platform (Expo)",
       "JSDoc Standards",
       "OpenAPI / Swagger",
@@ -168,7 +170,7 @@ export const initialProjects = [
       "EAS Build",
     ],
     description:
-      "OnlineCasino is a mobile-first gaming platform that includes a full casino experience: authentication, wallet management, game history, user profiles and three fully playable games (Slots, Roulette, Blackjack). The mobile app talks to a .NET 10 REST API that handles all business logic, game rules and persistence.The project is built with a strong emphasis on testability, type safety and clean separation between UI, business logic and data access.Both the frontend and backend are fully documented. The backend exposes interactive API documentation through Swagger UI, and the frontend is documented through TypeScript types, JSDoc comments on hooks and components, plus the test suite that acts as executable documentation for every screen and hook.",
+      "OnlineCasino is a mobile-first gaming platform built with **.NET 10 microservices**, featuring authentication, wallet management, profiles, game history, and three playable games (Slots, Roulette, Blackjack). Includes a **RAG-powered AI assistant** using **Qdrant** for vector storage, **Cloudflare Workers AI** for embeddings, cosine similarity for retrieval, and **Groq** for grounded response generation. Built on **Microsoft.Extensions.AI** (`IChatClient`, `IEmbeddingGenerator`) and **VectorData** (`VectorStore`) abstractions, with an AI chat featuring history, source citations, search, and clear-chat functionality.Emphasizes clean architecture, separation of concerns, provider-agnostic AI, type safety, testability, and resilience (**Polly, health checks, graceful degradation**), with comprehensive documentation (**Swagger, TypeScript, JSDoc, automated tests**).",
     youtubeUrl: "",
     liveUrl: "",
     githubUrl:

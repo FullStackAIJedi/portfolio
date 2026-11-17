@@ -12,6 +12,8 @@ export const modalTechCategories = [
       "RAG",
       "RAG Pipeline",
       "Vector Embeddings",
+      "Cloudflare Workers AI",
+      "Groq",
     ],
   },
   {
