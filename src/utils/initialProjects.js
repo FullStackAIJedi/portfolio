@@ -68,7 +68,8 @@ export const initialProjects = [
   },
   {
     id: 2,
-    title: "AI Dating Mobile App with RAG Content Moderation",
+    title:
+      "AI Mobile Dating Platform with Profanity Content Moderation | RAG, LLMs & Qdrant",
     year: "2026",
     labels: [
       "RAG",
@@ -117,7 +118,7 @@ export const initialProjects = [
       "EAS Build",
     ],
     description:
-      "Engineered a production-ready AI-augmented dating application featuring a cross-platform React Native client and a modular ASP.NET Core 10 REST API backend, with a RAG (Retrieval-Augmented Generation) pipeline powering intelligent content moderation. The system embeds user-generated content, retrieves semantically relevant context from a vector store, and enforces LLM-driven profanity and policy validation before persistence. Implements file-based Expo Router navigation, resilient server-state caching with TanStack Query, and strict OpenAPI/Swagger interface documentation. Backed by a dual-stack testing pyramid (Jest/RNTL for mobile and xUnit/Moq for backend) and fully automated CI/CD leveraging GitHub Actions and Expo Application Services (EAS Build) for automated native builds.",
+      "Engineered a production-ready AI-augmented dating application featuring a cross-platform React Native client and a modular ASP.NET Core 10 REST API backend, with a RAG pipeline powering intelligent content moderation. The system embeds user-generated content, retrieves semantically relevant context from a vector store, and enforces LLM-driven profanity and policy validation before persistence. Implements file-based Expo Router navigation, resilient server-state caching with TanStack Query, and strict OpenAPI/Swagger interface documentation. Backed by a dual-stack testing pyramid (Jest/RNTL for mobile and xUnit/Moq for backend) and fully automated CI/CD leveraging GitHub Actions and Expo Application Services (EAS Build) for automated native builds.",
     youtubeUrl: "",
     liveUrl: "",
     githubUrl:
@@ -126,7 +127,7 @@ export const initialProjects = [
   },
   {
     id: 3,
-    title: "AI Mobile Betting Platform - RAG Architecture, LLMs & Qdrant",
+    title: "AI Mobile Betting Platform | RAG Architecture, LLMs & Qdrant",
     year: "2026",
     labels: [
       "Mobile Gaming & FinTech",
@@ -179,7 +180,7 @@ export const initialProjects = [
   },
   {
     id: 4,
-    title: "Enterprise Hospitality & Resort Management - Platform Showcase",
+    title: "Enterprise Hospitality & Resort Management | Platform Showcase",
     year: "2026",
     labels: [
       "Enterprise Demo",
