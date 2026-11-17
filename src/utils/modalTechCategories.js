@@ -5,6 +5,13 @@ export const modalTechCategories = [
       "Model Context Protocol (MCP)",
       "pgvector Embeddings",
       "Ollama Integration",
+      "Microsoft.Extensions.AI",
+      "OllamaSharp",
+      "Qdrant",
+      "LLM Integration",
+      "RAG",
+      "RAG Pipeline",
+      "Vector Embeddings",
     ],
   },
   {

@@ -77,7 +77,7 @@ export const loadAddsSystemImages = createImageLoader(
 );
 
 export const loadCasinoImages = createImageLoader(
-  import.meta.glob("../assets/onlineCasino/*.png"),
+  import.meta.glob("../assets/onlineCasino/*.webp"),
 );
 
 export const loadDatingImages = createImageLoader(
