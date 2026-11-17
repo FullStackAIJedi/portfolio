@@ -68,8 +68,7 @@ export const initialProjects = [
   },
   {
     id: 2,
-    title:
-      "AI Mobile Dating Platform with Profanity Content Moderation | RAG, LLMs & Qdrant",
+    title: "AI Mobile Dating Platform, Profanity Check | RAG, LLMs & Qdrant",
     year: "2026",
     labels: [
       "RAG",
